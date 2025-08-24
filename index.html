@@ -253,13 +253,13 @@
  <span class="close-btn" onclick="closePasswordModal()">&times;</span>
       <h3>SHYIRAMO UMUBARE W'IBANGA UKORE IKIZAMI</h3>
      <div style="position: relative; display: inline-block; width: 90%;">
-  <input type="password" id="password-input" placeholder="ANDIKA IYO KODE HANO" oninput="showToggleText()" style="width: 90%; padding-right: 30px;">
+  <input type="password" id="password-input" placeholder="ANDIKA HANO UMUBARE W'IBANGA" oninput="showToggleText()" style="width: 90%; padding-right: 30px;">
   <span id="show-text" onclick="togglePassword(true)" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); color: black; cursor: pointer; display: none; font-size: 14px;">👁️Garagaza Password</span>
   <span id="hide-text" onclick="togglePassword(false)" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); color: black; cursor: pointer; display: none; font-size: 14px;">😎Hisha Password</span>
 </div>
       <br><br>
       <button onclick="checkPassword()" id="confirmBtn">
-        EMEZA NYUMA YO KWANDIKAMO KODE
+        KANDA HANO WEMEZE UKOMEZE
       </button>
       <br><br>
       <button id="sectionBtn1" onclick="goToSection1()">TWANDIKIRE TUGUFASHE</button>
@@ -356,7 +356,7 @@ function checkPassword() {
     closeModal();
     startQuiz();
   } else {
-    alert("Niba nta kode ya nyayo ufite kanda kuri OK ujye  ahanditse TWANDIKIRE TUGUFASHE");
+    alert("Niba nta mubare w'ibanga  ufite kanda kuri OK ujye  ahanditse TWANDIKIRE TUGUFASHE");
     inputField.value = "";
     inputField.focus();
   }
